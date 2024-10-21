@@ -1,0 +1,2 @@
+# Verkkosivujen_kehittaminen_2024
+Verkkosivujen kehittämisen harjoittelukansio
