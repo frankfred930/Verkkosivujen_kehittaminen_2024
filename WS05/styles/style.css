@@ -1,0 +1,45 @@
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }  
+header,
+footer {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+  clear: left;
+}
+.navigation {
+  display: flex;
+  background-color: lightseagreen;
+}
+
+.navigation > div {
+  flex: 1;
+  text-align: center;
+}
+#vertical-nav {
+  float: left;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  
+}
+#vertical-nav a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px;
+}
+#vertical-nav a:hover {
+  background-color: #ddd;
+}
+section { 
+  background-color: lightskyblue;
+  display: block;
+  text-align: center;
+  overflow: auto;
+}
