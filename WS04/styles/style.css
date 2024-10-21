@@ -1,29 +1,28 @@
 
 body {
-    background-color: black;
+    background-color: green;
     color: white;
 }
 
 h1 {
     font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    padding: 30px;
+    margin: 70px;
 }
 
 p {
+    color: white;
+    padding: 30px;
+    margin: 70px;
+}
+
+.parag {
     font-size: 12px;
     color: lightgray;
-}
-
-.my-div {
-    border: 2px dotted; border-color: white;
-    width: 100px;
-    height: 100px;
-}
-
-ol {
-    counter-reset: item;
-    list-style-type: upper-alpha;
-}
-
-ul {
-    list-style-type: square;
+    background: #73AD21;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    padding: 30px;
 }

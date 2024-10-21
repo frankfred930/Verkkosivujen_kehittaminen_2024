@@ -13,12 +13,6 @@ p {
     color: lightgray;
 }
 
-.my-div {
-    border: 2px dotted; border-color: white;
-    width: 100px;
-    height: 100px;
-}
-
 ol {
     counter-reset: item;
     list-style-type: upper-alpha;
@@ -27,3 +21,8 @@ ol {
 ul {
     list-style-type: square;
 }
+.dotted-border {
+    border: 2px dotted #ffffff;
+    width: 100px;
+    height: 100px;
+  }
