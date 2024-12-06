@@ -1,201 +1,162 @@
-/* Semi-transparent navbar with same color as footer */
 .transparent-navbar {
-    background-color: rgba(108, 171, 221, 0.7) !important; 
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10; 
+  background-color: rgba(108, 171, 221, 0.7) !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .navbar .navbar-brand,
 .navbar .nav-link {
-    color: #fff; 
+  color: #fff;
 }
 
 .navbar .nav-link:hover {
-    color: #007bff; 
+  color: #007bff;
 }
 
 .navbar-nav .nav-item {
-    padding-left: 15px;
-    padding-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .carousel-inner {
-    height: 100vh; 
-    min-height: 500px; 
+  height: 100vh;
+  min-height: 500px;
 }
 
 .carousel-item {
-    background-size: cover; 
-    background-position: center center; 
-    height: 100%;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
 }
 
 .carousel-item img {
-    display: none; 
+  display: none;
 }
 
 .carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    z-index: 2; 
-    text-align: center;
-    font-size: 3rem; 
-    line-height: 1.4;
-}
-
-@media (max-width: 1200px) {
-    .carousel-caption h1 {
-        font-size: 2.5rem; 
-    }
-
-    .carousel-caption p {
-        font-size: 1.2rem; 
-    }
-}
-
-@media (max-width: 992px) {
-    .carousel-caption h1 {
-        font-size: 2rem; 
-    }
-
-    .carousel-caption p {
-        font-size: 1.1rem; 
-    }
-}
-
-@media (max-width: 768px) {
-    .carousel-caption h1 {
-        font-size: 1.75rem; 
-    }
-
-    .carousel-caption p {
-        font-size: 1rem; 
-    }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1.4;
 }
 
 @media (max-width: 576px) {
-    .carousel-caption h1 {
-        font-size: 1.5rem; 
-    }
+  .navbar .navbar-nav .nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
-    .carousel-caption p {
-        font-size: 0.9rem; 
-    }
-
-    .navbar .navbar-nav .nav-item {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .navbar .navbar-brand, .navbar .nav-link {
-        font-size: 0.8rem; 
-    }
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    font-size: 0.8rem;
+  }
 }
 
 .content-section {
-    position: relative;
-    z-index: 2;
-    margin-top: 50px;
-    padding: 20px;
+  position: relative;
+  z-index: 2;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 .footer {
-    background-color: rgba(108, 171, 221, 0.7) !important; 
-    color: white;
-    text-align: center;
-    font-size: 12px; 
-    position: fixed; 
-    bottom: 0; 
-    width: 100%; 
-    z-index: 5; 
+  background-color: rgba(108, 171, 221, 0.7) !important;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 5;
 }
 
 .footer a {
-    color: #fff; 
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer a:hover {
-    text-decoration: underline; 
+  text-decoration: underline;
 }
 .footer .social-icons {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .footer .social-icon {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .footer .social-icon img {
-    width: 30px; 
-    height: 30px;
-    transition: transform 0.3s ease-in-out; 
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .footer .social-icon:hover img {
-    transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
-
-
 @media (max-width: 768px) {
-    .footer {
-        padding: 30px 0; 
-    }
+  .footer {
+    padding: 30px 0;
+  }
 }
 
 @media (max-width: 576px) {
-    .navbar .navbar-brand, .navbar .nav-link {
-        font-size: 0.8rem; 
-    }
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    font-size: 0.8rem;
+  }
 
-    .footer {
-        padding: 20px 0; 
-        font-size: 12px; 
-    }
+  .footer {
+    padding: 20px 0;
+    font-size: 12px;
+  }
 
-    .testimonial-card {
-        margin: 10px 0; 
-    }
+  .testimonial-card {
+    margin: 10px 0;
+  }
 }
 
 #trophies {
-    padding-top: 100px !important;
-    padding-bottom: 100px !important;
-}  
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
 
 #etihad {
-    padding-top: 100px !important; 
-    padding-bottom: 100px !important;
-  }
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
 
 #contact {
-    padding-top: 110px !important;  
-  }
+  padding-top: 110px !important;
+}
 
 .navbar-brand img {
-    height: 40px; 
-    width: auto;  
-  }
-  .form-container {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-body {
-    background-color: rgba(255, 255, 255, 0.7) !important;
-    border-radius: 10px; 
-  }
-  .card {
-    border: 1px solid rgba(255, 255, 255, 0.3) !important; 
-    background-color: rgba(255, 255, 255, 0.8) !important;
-  }
+  height: 40px;
+  width: auto;
+}
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  border-radius: 10px;
+}
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
